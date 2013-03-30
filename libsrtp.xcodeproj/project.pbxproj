@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F38719963C3982326D36A5 /* rdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 52021A7FE6F8B3DCFB623AC4 /* rdb.c */; };
+		07AE85B70F8FC1540E2A43B6 /* crypto_kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = 08856B615F6E9727B128D81F /* crypto_kernel.c */; };
+		1F761BCC5C05962B70D8C250 /* auth.c in Sources */ = {isa = PBXBuildFile; fileRef = 0547FF1A2837759E33E6551F /* auth.c */; };
+		29658366158C58D6E282B0A9 /* ekt.c in Sources */ = {isa = PBXBuildFile; fileRef = D74066CF684449793D5C196A /* ekt.c */; };
+		2E7441CC4B5E91CE9F5E9B45 /* aes_icm.c in Sources */ = {isa = PBXBuildFile; fileRef = FF36F4A66BC6C79E14836F12 /* aes_icm.c */; };
+		2FB308206DE71909333ABE60 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E1A6A705551B92CDB8511 /* prng.c */; };
+		3156EBC239985D53C001A813 /* gf2_8.c in Sources */ = {isa = PBXBuildFile; fileRef = 26E20954A6CC00022257E92D /* gf2_8.c */; };
+		3BB1432B54D3FB3F74113CF4 /* rdbx.c in Sources */ = {isa = PBXBuildFile; fileRef = AC3FE4584839C25DEDE94823 /* rdbx.c */; };
+		3C2EC009FA06A85034842CDA /* cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F4359669BA15BA955FE5A97 /* cipher.c */; };
+		3C7C31DCB9DC4F97A14F5E0A /* aes_cbc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BC43996CC1EBCC2073E89DF /* aes_cbc.c */; };
+		4F7DF005B990015FDFCD6EA0 /* null_cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D60069FE91C502325CEB1FB /* null_cipher.c */; };
+		5309C3B76C0E76BA0C1D57B4 /* ut_sim.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AF71A2917ABF77E43D305DA /* ut_sim.c */; };
+		59FC4DA175496D76A68A6450 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 49E196AFB94991B45D0CC545 /* aes.c */; };
+		722F30BFDCB4A2F9F8927BF1 /* err.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FDC3393000844F3FFC79E /* err.c */; };
+		85BFAF56827DA3E8E7BCBDB7 /* key.c in Sources */ = {isa = PBXBuildFile; fileRef = F92C2B0F2BC04C76D3E2220F /* key.c */; };
+		AB8EE903AD19F7CBB491BA9C /* rand_source.c in Sources */ = {isa = PBXBuildFile; fileRef = 01EC0BEED3051AC2581EC737 /* rand_source.c */; };
+		AC9E1F5F142E75C997E1CE83 /* ctr_prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8C3DECF6ED21325A5A58E /* ctr_prng.c */; };
+		B7BB259B4E9975CB405AB3F6 /* stat.c in Sources */ = {isa = PBXBuildFile; fileRef = 544A7A1CC25B3E84C36457CC /* stat.c */; };
+		B7ED648657B48279964A4E17 /* alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2486673D97FAE5DE65135 /* alloc.c */; };
+		D48B41338601A3CD1181A859 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = A1A84993A43EFF17B39CEDBD /* sha1.c */; };
+		E2C316FDA1E504C67E86349F /* srtp.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B474FC3CE35D88F8E970F29 /* srtp.c */; };
+		E34E26770FABB478CC98CFF4 /* null_auth.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB45C8FCF76BAD784B849C /* null_auth.c */; };
+		E4E59E5D4323FC864754534F /* datatypes.c in Sources */ = {isa = PBXBuildFile; fileRef = CFF4C4D95623CFC0D7AB206A /* datatypes.c */; };
+		F3E528E13ABD186CE33C7E5E /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = FFEA4DBEED1AEF3A931F5998 /* hmac.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01EC0BEED3051AC2581EC737 /* rand_source.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rand_source.c; sourceTree = "<group>"; };
+		0547FF1A2837759E33E6551F /* auth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = auth.c; sourceTree = "<group>"; };
+		07368DB6EFD930879DAFE2E2 /* release_defaults.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_defaults.gypi; path = ../../build/internal/release_defaults.gypi; sourceTree = "<group>"; };
+		0835A972773EED2CAECA80CF /* ekt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ekt.h; sourceTree = "<group>"; };
+		08856B615F6E9727B128D81F /* crypto_kernel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crypto_kernel.c; sourceTree = "<group>"; };
+		0B6E1A6A705551B92CDB8511 /* prng.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		0E851B6F188C1E902DECE6B9 /* crypto_kernel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto_kernel.h; sourceTree = "<group>"; };
+		15103AD0E07BE7FC006CE473 /* release_impl_official.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_impl_official.gypi; path = ../../build/internal/release_impl_official.gypi; sourceTree = "<group>"; };
+		19BDE6B0A272635FE160B5AB /* integers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = integers.h; sourceTree = "<group>"; };
+		1D60069FE91C502325CEB1FB /* null_cipher.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = null_cipher.c; sourceTree = "<group>"; };
+		2205C1701747E65615838EB6 /* datatypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = datatypes.h; sourceTree = "<group>"; };
+		237CFDBADC447848014FE537 /* cipher.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = cipher.h; sourceTree = "<group>"; };
+		26E20954A6CC00022257E92D /* gf2_8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gf2_8.c; sourceTree = "<group>"; };
+		288315EC08AC9BDD443E358F /* getopt_s.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt_s.h; sourceTree = "<group>"; };
+		2A11DA708784DD4EB51DEF9D /* gf2_8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gf2_8.h; sourceTree = "<group>"; };
+		2AF71A2917ABF77E43D305DA /* ut_sim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ut_sim.c; sourceTree = "<group>"; };
+		31849E08814DA577C65605B4 /* null_cipher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = null_cipher.h; sourceTree = "<group>"; };
+		338630F041E8DCF795F6DCD7 /* rand_source.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rand_source.h; sourceTree = "<group>"; };
+		3F4359669BA15BA955FE5A97 /* cipher.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cipher.c; sourceTree = "<group>"; };
+		42D961EB8E9A957CCD817EB8 /* prng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		49E196AFB94991B45D0CC545 /* aes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		4B474FC3CE35D88F8E970F29 /* srtp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = srtp.c; sourceTree = "<group>"; };
+		4BDB1CE529F9985494DFE101 /* hmac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		4EDB45C8FCF76BAD784B849C /* null_auth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = null_auth.c; sourceTree = "<group>"; };
+		52021A7FE6F8B3DCFB623AC4 /* rdb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdb.c; sourceTree = "<group>"; };
+		544A7A1CC25B3E84C36457CC /* stat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stat.c; sourceTree = "<group>"; };
+		54691039E34D93F7A0A41B21 /* alloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alloc.h; sourceTree = "<group>"; };
+		55A5E245CD97A8EEBD6DFCC8 /* auth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = auth.h; sourceTree = "<group>"; };
+		5DD585855CE526FFC4E7354B /* srtp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		615DE0C7615065FCED61675D /* null_auth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = null_auth.h; sourceTree = "<group>"; };
+		6BC43996CC1EBCC2073E89DF /* aes_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_cbc.c; sourceTree = "<group>"; };
+		6CA2486673D97FAE5DE65135 /* alloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alloc.c; sourceTree = "<group>"; };
+		724D4B59EC712750AB1BB39E /* cryptoalg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cryptoalg.h; sourceTree = "<group>"; };
+		736B9409C9A9BF2495016111 /* common.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = common.gypi; path = ../../build/common.gypi; sourceTree = "<group>"; };
+		745AA61FA94580403B18579F /* release.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release.gypi; path = ../../build/release.gypi; sourceTree = "<group>"; };
+		7D77FAA8D67CC6023B106FEC /* xfm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xfm.h; sourceTree = "<group>"; };
+		81C9D88C96DDF6E5C3E20727 /* crypto_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto_types.h; sourceTree = "<group>"; };
+		86A9AB285FB72003848AFAFD /* kernel_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kernel_compat.h; sourceTree = "<group>"; };
+		87D5EF71623288D1291E87D5 /* libsrtp.gyp */ = {isa = PBXFileReference; lastKnownFileType = text; path = libsrtp.gyp; sourceTree = "<group>"; };
+		8EB6216C4298C2B7EDA69335 /* libsrtp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsrtp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB8C3DECF6ED21325A5A58E /* ctr_prng.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ctr_prng.c; sourceTree = "<group>"; };
+		910FD34525D1287B6B6BCBB8 /* crypto_math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto_math.h; sourceTree = "<group>"; };
+		91E375D73755A1D8A523FE0E /* supplement.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = supplement.gypi; path = ../../client/supplement.gypi; sourceTree = "<group>"; };
+		92DB4AE668E0F83A8EE05318 /* aes_icm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes_icm.h; sourceTree = "<group>"; };
+		92DF00CB188CF10FA0C6174F /* release_impl.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_impl.gypi; path = ../../build/internal/release_impl.gypi; sourceTree = "<group>"; };
+		9373ACAED219542C5A82936F /* stat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stat.h; sourceTree = "<group>"; };
+		93F370B1086A290DE5DCB20C /* err.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		9A5FDC3393000844F3FFC79E /* err.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = err.c; sourceTree = "<group>"; };
+		9DCE1DEA2F7DBE5987E77282 /* rtp_priv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rtp_priv.h; sourceTree = "<group>"; };
+		9FF22C0E727D698BC19E3EFC /* ut_sim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ut_sim.h; sourceTree = "<group>"; };
+		A1A84993A43EFF17B39CEDBD /* sha1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		A2FC55574FE6B6BD8103AA6C /* sha1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		AC3FE4584839C25DEDE94823 /* rdbx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rdbx.c; sourceTree = "<group>"; };
+		BFB0D71495452D3DB2F631A9 /* aes_cbc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes_cbc.h; sourceTree = "<group>"; };
+		C498155A9B77660F1FD96AE5 /* aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		CB6A5248314AE4ABDC7D0936 /* rdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rdb.h; sourceTree = "<group>"; };
+		CE2C106A3D7B14F8938ADABC /* rtp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rtp.h; sourceTree = "<group>"; };
+		CFF4C4D95623CFC0D7AB206A /* datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = datatypes.c; sourceTree = "<group>"; };
+		D0476F607DFEAFEAD701F10B /* srtp_priv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srtp_priv.h; sourceTree = "<group>"; };
+		D74066CF684449793D5C196A /* ekt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ekt.c; sourceTree = "<group>"; };
+		D77B6447D4A15929E32EBB00 /* key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = key.h; sourceTree = "<group>"; };
+		F929C3EC96D926E16626CBD0 /* filename_rules.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = filename_rules.gypi; path = ../../build/filename_rules.gypi; sourceTree = "<group>"; };
+		F92C2B0F2BC04C76D3E2220F /* key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = key.c; sourceTree = "<group>"; };
+		FBA87221115251A63B752BE5 /* rdbx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = rdbx.h; sourceTree = "<group>"; };
+		FF36F4A66BC6C79E14836F12 /* aes_icm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_icm.c; sourceTree = "<group>"; };
+		FFA4F75B7D24B29AA8DE87A8 /* crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		FFEA4DBEED1AEF3A931F5998 /* hmac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27EBA6F26D601DF04796A795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0DC15B5242A15B64BF8E5B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0835A972773EED2CAECA80CF /* ekt.h */,
+				288315EC08AC9BDD443E358F /* getopt_s.h */,
+				CE2C106A3D7B14F8938ADABC /* rtp.h */,
+				9DCE1DEA2F7DBE5987E77282 /* rtp_priv.h */,
+				5DD585855CE526FFC4E7354B /* srtp.h */,
+				D0476F607DFEAFEAD701F10B /* srtp_priv.h */,
+				9FF22C0E727D698BC19E3EFC /* ut_sim.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4AD5981EEE1F9ED6BFA61BB3 /* rng */ = {
+			isa = PBXGroup;
+			children = (
+				8EB8C3DECF6ED21325A5A58E /* ctr_prng.c */,
+				0B6E1A6A705551B92CDB8511 /* prng.c */,
+				01EC0BEED3051AC2581EC737 /* rand_source.c */,
+			);
+			path = rng;
+			sourceTree = "<group>";
+		};
+		523D6D51A9B1CE13624E3B65 /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				DD2F5E8B0DDD235887C0BCBB /* cipher */,
+				8EF6AD4566A22C90258C4B2D /* hash */,
+				B22944FB67789538CD1450CB /* include */,
+				84801770390442B132DF15B0 /* kernel */,
+				62F04FC0DC8A3D6B261A5D89 /* math */,
+				A34CA377E846256BEFC39797 /* replay */,
+				4AD5981EEE1F9ED6BFA61BB3 /* rng */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
+		62F04FC0DC8A3D6B261A5D89 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				CFF4C4D95623CFC0D7AB206A /* datatypes.c */,
+				26E20954A6CC00022257E92D /* gf2_8.c */,
+				544A7A1CC25B3E84C36457CC /* stat.c */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		80F46E7E645F0A0FCA60D130 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				736B9409C9A9BF2495016111 /* common.gypi */,
+				F929C3EC96D926E16626CBD0 /* filename_rules.gypi */,
+				87D5EF71623288D1291E87D5 /* libsrtp.gyp */,
+				745AA61FA94580403B18579F /* release.gypi */,
+				07368DB6EFD930879DAFE2E2 /* release_defaults.gypi */,
+				92DF00CB188CF10FA0C6174F /* release_impl.gypi */,
+				15103AD0E07BE7FC006CE473 /* release_impl_official.gypi */,
+				91E375D73755A1D8A523FE0E /* supplement.gypi */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		84801770390442B132DF15B0 /* kernel */ = {
+			isa = PBXGroup;
+			children = (
+				6CA2486673D97FAE5DE65135 /* alloc.c */,
+				08856B615F6E9727B128D81F /* crypto_kernel.c */,
+				9A5FDC3393000844F3FFC79E /* err.c */,
+				F92C2B0F2BC04C76D3E2220F /* key.c */,
+			);
+			path = kernel;
+			sourceTree = "<group>";
+		};
+		8EF6AD4566A22C90258C4B2D /* hash */ = {
+			isa = PBXGroup;
+			children = (
+				0547FF1A2837759E33E6551F /* auth.c */,
+				FFEA4DBEED1AEF3A931F5998 /* hmac.c */,
+				4EDB45C8FCF76BAD784B849C /* null_auth.c */,
+				A1A84993A43EFF17B39CEDBD /* sha1.c */,
+			);
+			path = hash;
+			sourceTree = "<group>";
+		};
+		9846EA5989C7E84C7AD1BD8C /* srtp */ = {
+			isa = PBXGroup;
+			children = (
+				D74066CF684449793D5C196A /* ekt.c */,
+				4B474FC3CE35D88F8E970F29 /* srtp.c */,
+			);
+			path = srtp;
+			sourceTree = "<group>";
+		};
+		999D71FBE9A154B639E6E170 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				523D6D51A9B1CE13624E3B65 /* crypto */,
+				4A0DC15B5242A15B64BF8E5B /* include */,
+				9846EA5989C7E84C7AD1BD8C /* srtp */,
+			);
+			name = Source;
+			path = source/srtp;
+			sourceTree = "<group>";
+		};
+		A34CA377E846256BEFC39797 /* replay */ = {
+			isa = PBXGroup;
+			children = (
+				52021A7FE6F8B3DCFB623AC4 /* rdb.c */,
+				AC3FE4584839C25DEDE94823 /* rdbx.c */,
+				2AF71A2917ABF77E43D305DA /* ut_sim.c */,
+			);
+			path = replay;
+			sourceTree = "<group>";
+		};
+		A822664C669E753B2B1C8763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB6216C4298C2B7EDA69335 /* libsrtp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22944FB67789538CD1450CB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C498155A9B77660F1FD96AE5 /* aes.h */,
+				BFB0D71495452D3DB2F631A9 /* aes_cbc.h */,
+				92DB4AE668E0F83A8EE05318 /* aes_icm.h */,
+				54691039E34D93F7A0A41B21 /* alloc.h */,
+				55A5E245CD97A8EEBD6DFCC8 /* auth.h */,
+				237CFDBADC447848014FE537 /* cipher.h */,
+				FFA4F75B7D24B29AA8DE87A8 /* crypto.h */,
+				0E851B6F188C1E902DECE6B9 /* crypto_kernel.h */,
+				910FD34525D1287B6B6BCBB8 /* crypto_math.h */,
+				81C9D88C96DDF6E5C3E20727 /* crypto_types.h */,
+				724D4B59EC712750AB1BB39E /* cryptoalg.h */,
+				2205C1701747E65615838EB6 /* datatypes.h */,
+				93F370B1086A290DE5DCB20C /* err.h */,
+				2A11DA708784DD4EB51DEF9D /* gf2_8.h */,
+				4BDB1CE529F9985494DFE101 /* hmac.h */,
+				19BDE6B0A272635FE160B5AB /* integers.h */,
+				86A9AB285FB72003848AFAFD /* kernel_compat.h */,
+				D77B6447D4A15929E32EBB00 /* key.h */,
+				615DE0C7615065FCED61675D /* null_auth.h */,
+				31849E08814DA577C65605B4 /* null_cipher.h */,
+				42D961EB8E9A957CCD817EB8 /* prng.h */,
+				338630F041E8DCF795F6DCD7 /* rand_source.h */,
+				CB6A5248314AE4ABDC7D0936 /* rdb.h */,
+				FBA87221115251A63B752BE5 /* rdbx.h */,
+				A2FC55574FE6B6BD8103AA6C /* sha1.h */,
+				9373ACAED219542C5A82936F /* stat.h */,
+				7D77FAA8D67CC6023B106FEC /* xfm.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DD2F5E8B0DDD235887C0BCBB /* cipher */ = {
+			isa = PBXGroup;
+			children = (
+				49E196AFB94991B45D0CC545 /* aes.c */,
+				6BC43996CC1EBCC2073E89DF /* aes_cbc.c */,
+				FF36F4A66BC6C79E14836F12 /* aes_icm.c */,
+				3F4359669BA15BA955FE5A97 /* cipher.c */,
+				1D60069FE91C502325CEB1FB /* null_cipher.c */,
+			);
+			path = cipher;
+			sourceTree = "<group>";
+		};
+		E5D5082A7BC6CBC126DBBC4F = {
+			isa = PBXGroup;
+			children = (
+				999D71FBE9A154B639E6E170 /* Source */,
+				A822664C669E753B2B1C8763 /* Products */,
+				80F46E7E645F0A0FCA60D130 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA704BE3BEA106EE6CA5C614 /* libsrtp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A40D1D488B8EE53A4B12DF /* Build configuration list for PBXNativeTarget "libsrtp" */;
+			buildPhases = (
+				F426EB3421CC6DD736E250A3 /* Sources */,
+				27EBA6F26D601DF04796A795 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libsrtp;
+			productName = srtp;
+			productReference = 8EB6216C4298C2B7EDA69335 /* libsrtp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2476526428FE332D310ECB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 986639A44E6FF8E91E55ED9B /* Build configuration list for PBXProject "libsrtp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5D5082A7BC6CBC126DBBC4F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA704BE3BEA106EE6CA5C614 /* libsrtp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F426EB3421CC6DD736E250A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29658366158C58D6E282B0A9 /* ekt.c in Sources */,
+				E2C316FDA1E504C67E86349F /* srtp.c in Sources */,
+				59FC4DA175496D76A68A6450 /* aes.c in Sources */,
+				3C7C31DCB9DC4F97A14F5E0A /* aes_cbc.c in Sources */,
+				2E7441CC4B5E91CE9F5E9B45 /* aes_icm.c in Sources */,
+				3C2EC009FA06A85034842CDA /* cipher.c in Sources */,
+				4F7DF005B990015FDFCD6EA0 /* null_cipher.c in Sources */,
+				1F761BCC5C05962B70D8C250 /* auth.c in Sources */,
+				F3E528E13ABD186CE33C7E5E /* hmac.c in Sources */,
+				E34E26770FABB478CC98CFF4 /* null_auth.c in Sources */,
+				D48B41338601A3CD1181A859 /* sha1.c in Sources */,
+				B7ED648657B48279964A4E17 /* alloc.c in Sources */,
+				07AE85B70F8FC1540E2A43B6 /* crypto_kernel.c in Sources */,
+				722F30BFDCB4A2F9F8927BF1 /* err.c in Sources */,
+				85BFAF56827DA3E8E7BCBDB7 /* key.c in Sources */,
+				E4E59E5D4323FC864754534F /* datatypes.c in Sources */,
+				3156EBC239985D53C001A813 /* gf2_8.c in Sources */,
+				B7BB259B4E9975CB405AB3F6 /* stat.c in Sources */,
+				01F38719963C3982326D36A5 /* rdb.c in Sources */,
+				3BB1432B54D3FB3F74113CF4 /* rdbx.c in Sources */,
+				5309C3B76C0E76BA0C1D57B4 /* ut_sim.c in Sources */,
+				AC9E1F5F142E75C997E1CE83 /* ctr_prng.c in Sources */,
+				2FB308206DE71909333ABE60 /* prng.c in Sources */,
+				AB8EE903AD19F7CBB491BA9C /* rand_source.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0096F5222E919F122EA0F363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SYMROOT = ../../xcodebuild;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 i386 armv6 armv7s";
+			};
+			name = Release;
+		};
+		05182159C27EAF16A1D9508A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"HAVE_STDLIB_H\"",
+					"\"HAVE_STRING_H\"",
+					"\"DISABLE_NACL\"",
+					"\"HAVE_STDINT_H\"",
+					"\"HAVE_INTTYPES_H\"",
+					"\"HAVE_NETINET_IN_H\"",
+					"\"HAVE_UINT64_T\"",
+					"\"HAVE_UINT32_T\"",
+					"\"HAVE_UINT16_T\"",
+					"\"HAVE_UINT8_T\"",
+					"\"HAVE_UINT_T\"",
+					"\"CHROMIUM_BUILD\"",
+					"\"USE_LIBJPEG_TURBO=1\"",
+					"\"ENABLE_PEPPER_THREADING\"",
+					"\"ENABLE_INPUT_SPEECH\"",
+					"\"ENABLE_EGLIMAGE=1\"",
+					"\"USE_SKIA=1\"",
+					"\"ENABLE_WEB_INTENTS=1\"",
+					"\"ENABLE_PLUGIN_INSTALLATION=1\"",
+					"\"DISABLE_FTP_SUPPORT=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+					"\"WTF_USE_DYNAMIC_ANNOTATIONS=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					source/config,
+					source/srtp/include,
+					source/srtp/crypto/include,
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = srtp;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+					"-Wheader-hygiene",
+					"-Wno-char-subscripts",
+					"-Wno-unused-function",
+					"-Wno-unnamed-type-template-args",
+					"-Wno-c++11-extensions",
+				);
+				WARNING_CFLAGS_excluded = "-Wall -Wextra";
+			};
+			name = Debug;
+		};
+		8AD8CD713D82B33E9314BF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SYMROOT = ../../xcodebuild;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 i386 armv6 armv7s";
+			};
+			name = Debug;
+		};
+		9F421ED4714FB99AE62EEA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"HAVE_STDLIB_H\"",
+					"\"HAVE_STRING_H\"",
+					"\"DISABLE_NACL\"",
+					"\"HAVE_STDINT_H\"",
+					"\"HAVE_INTTYPES_H\"",
+					"\"HAVE_NETINET_IN_H\"",
+					"\"HAVE_UINT64_T\"",
+					"\"HAVE_UINT32_T\"",
+					"\"HAVE_UINT16_T\"",
+					"\"HAVE_UINT8_T\"",
+					"\"HAVE_UINT_T\"",
+					"\"CHROMIUM_BUILD\"",
+					"\"USE_LIBJPEG_TURBO=1\"",
+					"\"ENABLE_PEPPER_THREADING\"",
+					"\"ENABLE_INPUT_SPEECH\"",
+					"\"ENABLE_EGLIMAGE=1\"",
+					"\"USE_SKIA=1\"",
+					"\"ENABLE_WEB_INTENTS=1\"",
+					"\"ENABLE_PLUGIN_INSTALLATION=1\"",
+					"\"DISABLE_FTP_SUPPORT=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					source/config,
+					source/srtp/include,
+					source/srtp/crypto/include,
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = srtp;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+					"-Wheader-hygiene",
+					"-Wno-char-subscripts",
+					"-Wno-unused-function",
+					"-Wno-unnamed-type-template-args",
+					"-Wno-c++11-extensions",
+				);
+				WARNING_CFLAGS_excluded = "-Wall -Wextra";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62A40D1D488B8EE53A4B12DF /* Build configuration list for PBXNativeTarget "libsrtp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05182159C27EAF16A1D9508A /* Debug */,
+				9F421ED4714FB99AE62EEA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		986639A44E6FF8E91E55ED9B /* Build configuration list for PBXProject "libsrtp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD8CD713D82B33E9314BF10 /* Debug */,
+				0096F5222E919F122EA0F363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2476526428FE332D310ECB42 /* Project object */;
+}
